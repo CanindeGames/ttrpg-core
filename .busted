@@ -1,0 +1,13 @@
+-- busted config. Run from the repo root: `scripts/dev.sh test` (or busted directly).
+-- lpath makes require("ttrpg.x") resolve to src/ttrpg/x.lua and require("support.x")
+-- resolve to spec/support/x.lua.
+return {
+    _all = {
+        lpath = "src/?.lua;src/?/init.lua;spec/?.lua",
+    },
+    default = {
+        ROOT = { "spec" },
+        pattern = "_spec",
+        verbose = true,
+    },
+}

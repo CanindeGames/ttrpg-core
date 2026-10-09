@@ -1,0 +1,7 @@
+-- luacov config, used by `scripts/dev.sh cov` (busted --coverage).
+return {
+    statsfile = "luacov.stats.out",
+    reportfile = "luacov.report.out",
+    include = { "src/" },
+    exclude = { "%.luarocks/", "spec/" },
+}

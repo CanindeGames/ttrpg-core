@@ -1,0 +1,32 @@
+# Project-local LuaRocks tree (recreated by `scripts/dev.sh setup`)
+.luarocks/
+lua_modules/
+
+# Coverage
+luacov.stats.out
+luacov.report.out
+
+# Build artifacts
+*.rock
+*.src.rock
+
+# AI agent / assistant files (local only, never tracked)
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+AGENTS.md
+GEMINI.md
+.gemini/
+.codex/
+.cursor/
+.cursorrules
+.windsurf/
+.windsurfrules
+.continue/
+.aider*
+.rtk/
+.github/copilot-instructions.md
+
+node_modules/
+.DS_Store
+Thumbs.db
